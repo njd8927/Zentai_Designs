@@ -1,5 +1,11 @@
 import React from 'react'; // import react
 // import { Navigate } from 'react-router-dom'; // import react router
+import Nav from './components/Nav'; // import Nav component
+import About from './components/About'; // import About component
+import Projects from './components/Projects'; // import Projects component
+import Contact from './components/Contact'; // import Contact component
+// import './App.css'; // import App.css
+
 
 function App () {
   return (
