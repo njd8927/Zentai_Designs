@@ -1,3 +1,5 @@
+import React from "react";
+
 function About() {
     return (
         <section id="about">
@@ -8,9 +10,8 @@ function About() {
                         <br className="hidden lg:inline-block" />My Passion Is Developing and Maintaining Web Applications.
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                        laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-                        Laborum, voluptas natus?
+                        Highly skilled Full Stack Web Developer with expertise in HTML, CSS, Javascript and MERN. 
+                        Seeking a challenging role as a Web Developer to leverage my skills and knowledge to help clients achieve their goals and objectives.
                     </p>
                     <div className="flex justify-center">
                         <a
