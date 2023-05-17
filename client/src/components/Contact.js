@@ -14,8 +14,8 @@ function Contact () {
           .join("&");
       }
     
-      function handleSubmit(eventObj) {
-        eventObj.preventDefault();
+      function handleSubmit(e) {
+        e.preventDefault();
         fetch("/", {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -71,10 +71,10 @@ function Contact () {
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hire Me
           </h2>
-          <p className="leading-relaxed mb-5">
+          {/* <p className="leading-relaxed mb-5">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
             suscipit officia aspernatur veritatis. Asperiores, aliquid?
-          </p>
+          </p> */}
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
