@@ -17,7 +17,7 @@ function Projects(props) {
           <div className="flex flex-wrap -m-4">
             {props.projects.map((project) => (
               <a
-                href={project.link}
+                href={project.app_link}  
                 key={project.image}
                 className="sm:w-1/2 w-100 p-4">
                 <div className="flex relative">

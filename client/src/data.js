@@ -1,34 +1,31 @@
-export const projects = [
+const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
-      link: "https://reactbootcamp.com",
+        title: "E-Commerce Store",
+        subtitle: "MYSQL",
+        description:
+            "Server side application to provide a user with a database for their e-commerce store.",
+        image: "",
+        app_link: "",
+        repo_link: ""
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-2.gif",
-      link: "https://reedbarger.com",
+        title: "Bite Buddy",
+        subtitle: "RESTFUL API",
+        description:
+            "Application to allow college students to find the best food deals in their area while also allowing business owners to promote their deals.",
+        image: "",
+        app_link: "",
+        repo_link: ""
     },
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-3.gif",
-      link: "https://jsbootcamp.com",
+        title: "devDirect",
+        subtitle: "MERN",
+        description:
+            "Application to allow recent bootcamp grads to upload resumes and additional information to be viewed by potential employers.",
+        image: "",
+        app_link: "",
+        repo_link: ""
     },
-    {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.gif",
-      link: "https://pythonbootcamp.com",
-    },
-  ];
+];
+
+export default projects;
