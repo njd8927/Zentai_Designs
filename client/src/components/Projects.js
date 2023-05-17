@@ -1,7 +1,7 @@
 import React from 'react';
 import { projects } from '../data';
 
-function Projects() {
+function Projects(props) {
     return (
         <section id="projects" className="text-gray-400 bg-gray-900 body-font">
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -11,13 +11,11 @@ function Projects() {
               Apps I've Built
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-              facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-              fuga dolore.
+              Please see below for a few of the projects I've worked on.
             </p>
           </div>
           <div className="flex flex-wrap -m-4">
-            {projects.map((project) => (
+            {props.projects.map((project) => (
               <a
                 href={project.link}
                 key={project.image}
