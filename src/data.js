@@ -4,8 +4,8 @@ const projects = [
         subtitle: "MERN",
         description:
             "Application to allow recent bootcamp grads to upload resumes and additional information to be viewed by potential employers.",
-        image: "../public/devDirect.png",
-        app_link: "https://dev-direct.herokuapp.com/",
+        image: "",
+        app_link: "",
         repo_link: "https://github.com/Animeet/DevDirect"
     },
     {
