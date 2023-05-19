@@ -1,4 +1,4 @@
-const projects = [
+const projects = [  
     {
         title: "devDirect",
         subtitle: "MERN",
@@ -18,13 +18,13 @@ const projects = [
         repo_link: "https://github.com/Animeet/Bite_Buddy"
     },
     {
-        title: "E-Commerce Store",
+        title: "Employee Tracker",
         subtitle: "MYSQL",
         description:
             "Server side application to provide a user with a database for their e-commerce store.",
-        image: "",
+        image: "../public/Employee_DB.png",
         app_link: "CLI Interface",
-        repo_link: "https://github.com/njd8927/E-Commerce_App"
+        repo_link: "https://github.com/njd8927/Employee_Tracker"
     },
   
 ];
